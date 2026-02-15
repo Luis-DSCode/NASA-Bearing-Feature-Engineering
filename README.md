@@ -22,14 +22,14 @@ FFT ist ein mathematisches Verfahren, welches ein Signal in einzelne Frequenzkom
 Für die Zustandsüberwachung von Maschinen kann dies verwendet werden, um Änderungen in Frequenzmustern frühzeitig zu erkennen.
 Dies könnte beispielsweise eine Lockerung eines mechanischen Bauteils sein, welches die Vibrationen der Maschine verändert.
 
-Betrachten wir beispielsweise die aufgeteilten Frequenzen von Lager 1 zu beginn des Tests, können wir eine gleichmäßige Verteilung mit einer dominanten Grundfrequenz erkennen: 
+Betrachten wir beispielsweise die aufgeteilten Frequenzen von Lager 1 zu Beginn des Tests, können wir eine gleichmäßige Verteilung mit einer dominanten Grundfrequenz erkennen: 
 
 Diese Frequenz bei 985.40 Hz mit einer Amplitude von 428.21 ist möglicherweise eine grundlegende Vibration des gesamten Versuchaufbaus.
 <img width="1392" height="749" alt="Screenshot 2026-02-16 002741" src="https://github.com/user-attachments/assets/8f5b8121-ea0f-430a-93f2-8f4c86d13a8e" />
 
   
 4 Tage nach dieser Aufnahme verändern sich diese Frequenzen:  
-Weitere Frequenzen steigen in ihrer Amplitude und die Vibrationen werden Chaotischer.
+Weitere Frequenzen steigen in ihrer Amplitude und die Vibrationen werden chaotischer.
 <img width="1744" height="900" alt="grafik" src="https://github.com/user-attachments/assets/e7c5ca7b-f7df-4adf-bf65-758685ada462" />
 
   
@@ -55,4 +55,7 @@ Neben FFT gibt es noch weitere messbare Veränderungen in den Vibrationsdaten.
 # Feature Verteilung nach Label
 
 # Feature Korrelation
+
+# Automatische Restlebensdauer-Vorhersage durch Machine-Learning
+[WIP]
 
