@@ -1,6 +1,6 @@
 # NASA Bearing Dataset FFT-Analyse
 
-In diesem Projekt wird eine explorative Datenanalyse mit Fast Fourier Transform implementiert. 
+In diesem Projekt wird eine Datenanalyse mit Fast Fourier Transform implementiert. 
 Es basiert auf dem NASA IMS Bearing Dataset und demonstriert, wie Features daraus extrahiert werden können, 
 um Ausfälle mittels Vibrationsdaten zu erkennen.
 
