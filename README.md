@@ -44,17 +44,43 @@ Neben FFT gibt es noch weitere messbare Veränderungen in den Vibrationsdaten.
 
 ### Root Mean Square
 
+Der quadratische Mittelwert der Vibration. Es ist ein Maß für die Gesamtenergie des Signals.  
+Steigt bei zunehmender Degradation, da mehr Energie durch Reibung entsteht.
+
 ### Peak to Peak
+
+Die Differenz zwischen dem höchsten und niedrigsten Messwert im Signal.  
+Zeigt starke Stöße oder Schockimpulse.  
 
 ### Crest Factor
 
+Dies ist das Verhältnis zwischen dem Peak-Wert und dem RMS-Wert.  
+> Crest Factor = Peak / RMS
+
+Zeigt den Unterschied zwischen kontinuierlicher Vibration und impulsartigen Stößen.
+
 ### Kurtosis
 
-# Labeling
+Ein statistisches Maß dafür, wie steil oder spitz einer Verteilung.  
+Erhöht sich bei Lagerschäden.  
 
-# Feature Verteilung nach Label
+## Labeling
+Die Daten werden in drei Klassen unterteilt:
+- 0 Gesund
+- 1 Degradiert
+- 2 Kritisch
 
-# Feature Korrelation
+Die Klassifizierung basiert auf der Verteilung der Vibrationsamplituden:
+<img width="1139" height="452" alt="output" src="https://github.com/user-attachments/assets/b88c824c-74dc-428f-810a-128a62766886" />
+
+## Feature Verteilung nach Label
+Folgend wird das Verhalten von Features innerhalb der Klassifizierungen dargestellt:
+<img width="2250" height="1500" alt="feature_distributions" src="https://github.com/user-attachments/assets/80da66f7-f96c-4341-9fc8-a6ed0916b6bb" />
+
+
+## Feature Korrelation
+Korrelationen zwischen Features und Label
+<img width="1500" height="1200" alt="correlation_matrix" src="https://github.com/user-attachments/assets/b1f7226c-c27b-416d-82d0-56d2cf6d0354" />
 
 # Automatische Restlebensdauer-Vorhersage durch Machine-Learning
 [WIP]
